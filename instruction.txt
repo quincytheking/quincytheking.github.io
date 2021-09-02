@@ -1,0 +1,23 @@
+this cleans the format of css, very useful
+https://www.cleancss.com/css-beautify/
+https://beautifier.io/
+
+very good website
+https://canvas.jjangik.com/?ckattempt=1
+
+css card design
+https://uicookies.com/css-card-design/
+
+https://www.youtube.com/watch?v=ela-oNuFlzM&ab_channel=BookMarkCode
+
+
+good design pictures 
+https://pixabay.com/illustrations/dogs-breeds-drawing-heads-animals-5941898/
+https://pixabay.com/users/kirillslov-8058952/
+
+Javascript vanilla projects
+project sample
+https://www.vanillajavascriptprojects.com/
+
+source code
+https://github.com/john-smilga/javascript-basic-projects

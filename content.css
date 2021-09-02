@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background: url(./image/night-beach.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    min-height: 80%;
+    margin: 20px 0px;
+    padding: 30px 30px;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    color: #d3d3d3;
+    text-align: left;
+}
+.container .header{
+    margin-bottom: 10px;
+}
+.container h1 span{
+    color: green;
+}
+.container h3 {
+    margin: 40px 0;
+    display: block;
+}
+.container h3 span {
+    color: yellow;
+}
+
+.container ul li{
+    margin-bottom: 10px;
+}

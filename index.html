@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9c5c3aae9.js" crossorigin="anonymous"></script>
+    <script src="./main.js" defer></script>
+</head>
+<body>
+<!-- landing page -->
+<section class="backgroundimg">
+    <div class="wrapper">
+    <div class="menu-btn"><i class="fas fa-bars navbtn"></i></div> 
+            <ul>
+                <li><a href="#" class="navbtn">Home</a></li>
+                <li><a href="#Quincy-background-and-skills" class="navbtn">about me</a></li>
+                <li><a href="#contact-section" class="navbtn">contact</a></li>
+                <li><a href="#lol" class="navbtn">Project</a></li>
+            </ul>
+      <div class="social-icon">
+        <a href="https://www.facebook.com/quincy.kao"  target="_blank"><i class="fab fa-facebook-square btn"></i></a>
+        <a href="https://www.linkedin.com/in/quincy-kao/"  target="_blank"><i class="fab fa-linkedin btn"></i></a>
+        <a href="#"  target="_blank"><i class="fab fa-instagram-square btn"></i></a>
+      </div>
+</div>
+    <div class="glass">
+            <div class="glass-layer">
+                <div class="square" style="--i:0;"></div>
+                <div class="square" style="--i:1;"></div>
+                <div class="square" style="--i:2;"></div>
+                <div class="square" style="--i:3;"></div>
+                <div class="square" style="--i:4;"></div>
+                <div class="square" style="--i:5;"></div>
+                <div class="glass-container">
+                    <div class="content">
+
+                    <p>Hi, I am</p>
+                    <h1>Quincy Kao</h1>
+                    <p>Financial mathematics/Coder</p>
+                    <a href="./Quincy Resume 2021.pdf" type="button" class="cta btn" >Download Resume</a>
+                    <!-- <a href="#" type="button" class="cta btn" >More about me</a> -->
+                    </div>
+                    <div class="Quincy-img">
+                        <img src="./image/Quincy-Kao.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</section>
+
+<section id="Quincy-background-and-skills">
+    <!-- <div class="particles-js-container"></div> -->
+    <div id="particles-js"></div>
+    <div class="background-skills">
+    <div class="background-content">
+    <div class="header">
+    <h1>Background</h1>
+    </div>
+    <p>I am majoring in financial mathematics, currently in my last year of my undergraduate program. But I spent most of my free time learning about Front end-development, coding and programming. The tech companies and their business model drives me to start learning coding. I believe both finance and computer science must co-exist and brings the best out of each other</p>
+</div>
+<div class="skills-content">
+    <div class="header">
+        <h1>Skills</h1>
+    </div>
+    <ul>
+        <li>Excel</li>
+        <li>VBA</li>
+        <li>Power BI</li>
+        <li>Python</li>
+        <li>Javascript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>informatica</li>
+        <li>Basic SQL</li>
+        <li>Power query</li>
+    </ul>
+</div>
+</div>
+</section>
+
+
+
+<!-- educations and experience -->
+<div class="timeline-container">
+    <h1 id="timeline-title">Education and Experience</h1>
+    <div class="timeline">
+      <ul>
+        <li>
+          <div class="timeline-content">
+            <h3 class="date">Sep 2017</h3>
+            <h1>Ryerson University(Education)</h1>
+            <p>3rd-year Financial Mathematics Co-op Program | Bachelor of Science | Ryerson University.</p>
+            <!-- <a href="#" type="button" class="cta btn" >Read more</a> -->
+          </div>
+        </li>
+        <li>
+          <div class="timeline-content">
+            <h3 class="date">June 2018- Aug 2018</h3>
+            <h1>CXC global under Cathay Pacific International Airline Hong Kong</h1>
+            <p>
+              Summer Internship Project Assistant
+              </p>
+              <a href="#" type="button" class="cta btn" >Read more</a>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-content">
+            <h3 class="date">Jan 2020 – Aug 2020</h3>
+            <h1>OPSEU Pension Trust</h1>
+            <p>
+              Investment Analysis Assistant 
+              </p>
+              <a href="./optrust.html" type="button" class="cta btn" target="_blank">Read more</a>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-content">
+            <h3 class="date">Sep 2020 – Dec 2020</h3>
+            <h1>CAAT Pension Plan</h1>
+            <p>Data Management</p>
+            <a href="./caat.html" type="button" class="cta btn" target="_blank">Read more</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<section class="project-section" id="lol">
+    <h1>Projects</h1>
+    <div class="filter-btn-container">
+      <button type="button" class="filter-btn btn cta" data-category="all">all</button>
+      <button type="button" class="filter-btn btn cta" data-category="power bi">Power bi</button>
+      <button type="button" class="filter-btn btn cta" data-category="Javascript">Javascript</button>
+      <button type="button" class="filter-btn btn cta" data-category="apps">apps</button>
+    </div>
+  <div class="projects-container">
+</div> 
+</section>
+
+<section class="contact-section" id="contact-section">
+  <form action="mailto:quincykao888@gmail.com">
+    <div class="input-group">
+      <input type="text" required id="name">
+      <label for="name"><i class="fas fa-user"></i>Your Name</label>
+    </div>
+    <div class="input-group">
+      <input type="text" required id="number">
+      <label for="number"><i class="fas fa-phone-alt"></i>Phone No</label>
+    </div>
+    <div class="input-group">
+      <input type="email" required id="email">
+      <label for="email"><i class="fas fa-envelope"></i>Email id</label>
+    </div>
+    <div class="input-group">
+      <textarea  id="message"  rows="8"></textarea>
+      <label for="message"><i class="fas fa-comments"></i>Message</label>
+    </div>
+    <button class="btn cta input-btn">Submit</button>
+  </form>
+ 
+
+
+</section>
+
+<script src="./particles.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
