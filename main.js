@@ -23,14 +23,14 @@ const projects = [{
     id:1,
     category:"Python",
     img:"./image/projects-1.jpg",
-    title:"Stock Market Price Prediction(Self-taught)",
+    title:"Stock Market Price Prediction",
     content:"Trying to predict the stock price of any ticker 3 days ahead. Using Machine learning(LSTM), keras, sklearn, pandas, matplotlib",
 },
 {
     id:2,
     category:"Python",
     img:"./image/projects-2.jpg",
-    title:"SMA Buy and Sell Signal(Self-taught)",
+    title:"SMA Buy and Sell Signal",
     content:"Using 30 day and 100 day simple moving average(SMA) to trigger buy or sell signal, Using  libraries such as Pandas and matplotlib ",
 },
 {
@@ -44,7 +44,7 @@ const projects = [{
     id:4,
     category:"Python",
     img:"./image/projects-4.jpg",
-    title:"Loan prediction approval(Self-taught)",
+    title:"Loan prediction approval",
     content:"Predicting whether or not the loan will approve based on the personal information given by the clients, using machine learning, sklearn, seaborn ",
 },
 {
