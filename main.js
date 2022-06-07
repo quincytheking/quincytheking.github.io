@@ -21,39 +21,38 @@ nav_button.addEventListener('click',() => {
 // filtering
 const projects = [{
     id:1,
-
-    category:"finance related",
+    category:"Python",
     img:"./image/projects-1.jpg",
-    title:"Heading1",
-    content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum est a hic assumenda ad omnis, corrupti voluptatem consequuntur",
+    title:"Stock Market Price Prediction",
+    content:"Trying to predict the stock price of any ticker 3 days ahead. Using Machine learning(LSTM), keras, sklearn, pandas, matplotlib",
 },
 {
     id:2,
-    category:"Javascript",
-    img:"./image/projects-2.png",
-    title:"Heading2",
-    content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum est a hic assumenda ad omnis, corrupti voluptatem consequuntur",
+    category:"Python",
+    img:"./image/projects-2.jpg",
+    title:"SMA Buy and Sell Signal",
+    content:"Using 30 day and 100 day simple moving average(SMA) to trigger buy or sell signal, Using  libraries such as Pandas and matplotlib ",
 },
 {
     id:3,
-    category:"apps",
+    category:"power bi",
     img:"./image/projects-3.jpg",
-    title:"Heading3",
-    content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum est a hic assumenda ad omnis, corrupti voluptatem consequuntur",
+    title:"Daily Performance Dashboard",
+    content:"using Dax Formulas to calculate Total Fund, Reference Portfolio return, Currency Return, local return, Base return, market return",
 },
 {
     id:4,
-    category:"coding related",
+    category:"Python",
     img:"./image/projects-4.jpg",
-    title:"Heading4",
-    content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum est a hic assumenda ad omnis, corrupti voluptatem consequuntur",
+    title:"Loan prediction approval",
+    content:"Predicting whether or not the loan will be approved based on the personal information of the clients, using machine learning, sklearn, seaborn ",
 },
 {
     id:5,
     category:"power bi",
     img:"./image/projects-5.jpg",
-    title:"Heading5",
-    content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum est a hic assumenda ad omnis, corrupti voluptatem consequuntur",
+    title:"membership count dashboard",
+    content:"Total membership by quarter, Ratio of active to retired members, Active membership, Retirements, Terminations, New Enrolments to the pension plan, New Entrants age, Retired Member and Spouse Deaths    ",
 }];
 const projectcontainer = document.querySelector(".projects-container");
 const filterbtn = document.querySelectorAll(".filter-btn");
